@@ -83,7 +83,7 @@ export const clearTodos = createAsyncThunk(
   }
 );
 
-const todoSlice = createSlice({
+export const todoSlice = createSlice({
   name: "todos",
   initialState: { items: [], loading: false, error: null },
   reducers: {},
